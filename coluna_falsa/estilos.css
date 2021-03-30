@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+#conteiner{
+    width: 920px;
+    background: #fff url(imagens/coluna.png) repeat-y left top;
+    margin: 0px auto;
+    min-width: 820px;
+    max-width: 960px;
+}
+#marca{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 300px;
+    background: #9e9e9e url(imagens/cabecalho2.jpg) no-repeat center;
+}
+#conteudo{/*para deficientes visuais é melhor 1º o conteudo depois a navegação*/
+    width: 75%; /*520px;(achar por centagem do total valor total)*/
+    float: right;
+}
+#navegacao{
+    width:  23%; /*180px;(achar por centagem do total valor total)*/
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*background: #d1d1d1;*/
+}
+#coluna1{
+    width: 63%;
+    float: left;
+    /*somar os width das duas colunas, fazer X 100 
+    e dividir pelo valor total do width total*/
+}
+#coluna2{
+    width: 33%;
+    float: right;
+    background: #d1d1d1;
+    padding: 5px;
+    /*somar os width das duas colunas, fazer X 100 
+    e dividir pelo valor total do width total*/
+}
+#coluna2 h1, #coluna2 h2, #coluna2 h3, #coluna2 p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+img.imagem{
+    width: 96%;
+    padding: 2%;
+    max-width: 600px;
+}
+#rodape{
+    clear: both;
+    text-align: center;
+    background: #c4c4c4;
+    padding: 5px;
+}
+/********** LAYOUT *******************/
+ul li{
+    list-style: none;
+    padding: 5px;
+    text-align: left;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color: #fff;
+    display: block;
+}
